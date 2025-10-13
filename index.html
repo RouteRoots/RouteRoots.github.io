@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Raúl Eduardo Hernández Mendoza - Computer Systems Engineer &amp; Cybersecurity Specialist">
+    <title>Raúl Eduardo Hernández Mendoza - CV Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__brand">
+                <h1 class="nav__title">Raúl Eduardo Hernández</h1>
+                <p class="nav__subtitle" data-es="Ingeniero en Sistemas &amp; Especialista en Ciberseguridad" data-en="Systems Engineer &amp; Cybersecurity Specialist">Ingeniero en Sistemas &amp; Especialista en Ciberseguridad</p>
+            </div>
+            <div class="nav__controls">
+                <button class="btn btn--sm theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <span class="theme-icon">🌙</span>
+                </button>
+                <button class="btn btn--sm language-toggle" id="languageToggle">
+                    <span class="language-text">EN</span>
+                </button>
+                <button class="btn btn--sm nav-toggle" id="navToggle">
+                    <span class="nav-hamburger"></span>
+                </button>
+            </div>
+        </nav>
+        <nav class="main-nav" id="mainNav">
+            <ul class="main-nav__list">
+                <li><a href="#hero" class="main-nav__link" data-es="Inicio" data-en="Home">Inicio</a></li>
+                <li><a href="#personal" class="main-nav__link" data-es="Datos" data-en="Data">Datos</a></li>
+                <li><a href="#languages" class="main-nav__link" data-es="Idiomas" data-en="Languages">Idiomas</a></li>
+                <li><a href="#profile" class="main-nav__link" data-es="Perfil" data-en="Profile">Perfil</a></li>
+                <li><a href="#skills" class="main-nav__link" data-es="Habilidades" data-en="Skills">Habilidades</a></li>
+                <li><a href="#education" class="main-nav__link" data-es="Educación" data-en="Education">Educación</a></li>
+                <li><a href="#training" class="main-nav__link" data-es="Formación" data-en="Training">Formación</a></li>
+                <li><a href="#experience" class="main-nav__link" data-es="Experiencia" data-en="Experience">Experiencia</a></li>
+                <li><a href="#achievements" class="main-nav__link" data-es="Logros" data-en="Achievements">Logros</a></li>
+                <li><a href="#interests" class="main-nav__link" data-es="Intereses" data-en="Interests">Intereses</a></li>
+                <li><a href="#contact" class="main-nav__link" data-es="Contacto" data-en="Contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <h1 class="hero__title">Raúl Eduardo Hernández Mendoza</h1>
+                        <h2 class="hero__subtitle" data-es="Ingeniero en Sistemas Computacionales" data-en="Computer Systems Engineer">Ingeniero en Sistemas Computacionales</h2>
+                        <p class="hero__description" data-es="Especialista en ciberseguridad con amplia experiencia en análisis de amenazas, monitoreo de infraestructura y gestión de activos de seguridad." data-en="Cybersecurity specialist with extensive experience in threat analysis, infrastructure monitoring, and security asset management.">Especialista en ciberseguridad con amplia experiencia en análisis de amenazas, monitoreo de infraestructura y gestión de activos de seguridad.</p>
+                        <div class="hero__actions">
+                            <a href="#experience" class="btn btn--primary" data-es="Ver Experiencia" data-en="View Experience">Ver Experiencia</a>
+                            <a href="#skills" class="btn btn--outline" data-es="Ver Habilidades" data-en="View Skills">Ver Habilidades</a>
+                        </div>
+                    </div>
+                    <div class="hero__avatar">
+                        <div class="avatar-placeholder">
+                            <span class="avatar-initials">RH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Personal Data Section -->
+        <section id="personal" class="section">
+            <div class="container">
+                <h2 class="section__title" data-es="Datos Personales" data-en="Personal Information">Datos Personales</h2>
+                <div class="personal-grid">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3 class="card__title" data-es="Información de Contacto" data-en="Contact Information">Información de Contacto</h3>
+                            <div class="personal-info">
+                                <div class="info-item">
+                                    <span class="info-icon">📧</span>
+                                    <span class="info-text">raul.ehm@onmail.com</span>
+                                </div>
+
+                                <div class="info-item">
+                                    <span class="info-icon">📍</span>
+                                    <span class="info-text">Pachuca de Soto, Hidalgo</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-icon">🎂</span>
+                                    <span class="info-text" data-es="20 de Julio, 1994 (31 años)" data-en="July 20, 1994 (31 years old)">20 de Julio, 1994 (31 años)</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-icon">💍</span>
+                                    <span class="info-text" data-es="Casado" data-en="Married">Casado</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-icon">🚗</span>
+                                    <span class="info-text" data-es="Licencia Tipo A" data-en="License Type A">Licencia Tipo A</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Languages Section -->
+        <section id="languages" class="section">
+            <div class="container">
+                <h2 class="section__title" data-es="Idiomas" data-en="Languages">Idiomas</h2>
+                <div class="languages-grid">
+                    <div class="card">
+                        <div class="card__body">
+                            <div class="language-item">
+                                <h3 class="language-name" data-es="Español" data-en="Spanish">Español</h3>
+                                <span class="language-level" data-es="Nativo" data-en="Native">Nativo</span>
+                                <div class="language-progress">
+                                    <div class="progress-bar" style="width: 100%;"></div>
+                                </div>
+                            </div>
+                            <div class="language-item">
+                                <h3 class="language-name" data-es="Inglés" data-en="English">Inglés</h3>
+                                <span class="language-level">A2 (UVEG)</span>
+                                <div class="language-progress">
+                                    <div class="progress-bar" style="width: 40%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Profile Section -->
+        <section id="profile" class="section section--bg">
+            <div class="container">
+                <h2 class="section__title" data-es="Perfil Profesional" data-en="Professional Profile">Perfil Profesional</h2>
+                <div class="card">
+                    <div class="card__body">
+                        <p class="profile-text" data-es="Ingeniero en Sistemas Computacionales con amplia experiencia como técnico informático y especialista en ciberseguridad. Sólida formación técnica y trayectoria destacada en monitoreo de infraestructura, análisis de amenazas y gestión de activos. Capaz de explicar conceptos complejos de forma clara a usuarios no técnicos, y de ejecutar tareas críticas como instalación, reparación y protección de sistemas con precisión y eficiencia. Comprometido con la mejora continua y la seguridad operativa en entornos tecnológicos exigentes." data-en="Computer Systems Engineer with extensive experience as an IT technician and cybersecurity specialist. Solid technical background and outstanding track record in infrastructure monitoring, threat analysis, and asset management. Able to explain complex concepts clearly to non-technical users and execute critical tasks such as system installation, repair, and protection with precision and efficiency. Committed to continuous improvement and operational security in demanding technological environments.">Ingeniero en Sistemas Computacionales con amplia experiencia como técnico informático y especialista en ciberseguridad. Sólida formación técnica y trayectoria destacada en monitoreo de infraestructura, análisis de amenazas y gestión de activos. Capaz de explicar conceptos complejos de forma clara a usuarios no técnicos, y de ejecutar tareas críticas como instalación, reparación y protección de sistemas con precisión y eficiencia. Comprometido con la mejora continua y la seguridad operativa en entornos tecnológicos exigentes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="section__title" data-es="Habilidades Técnicas" data-en="Technical Skills">Habilidades Técnicas</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h3 class="skill-name" data-es="Microsoft Office y herramientas de productividad" data-en="Microsoft Office and productivity tools">Microsoft Office y herramientas de productividad</h3>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h3 class="skill-name" data-es="Reparación y mantenimiento de equipos" data-en="Computer equipment repair and maintenance">Reparación y mantenimiento de equipos</h3>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h3 class="skill-name" data-es="Diseño e instalación de redes" data-en="Network design and installation">Diseño e instalación de redes</h3>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h3 class="skill-name" data-es="Programación (C++, C#, Python, HTML, CSS, SQL, Java, JavaScript)" data-en="Programming (C++, C#, Python, HTML, CSS, SQL, Java, JavaScript)">Programación (C++, C#, Python, HTML, CSS, SQL, Java, JavaScript)</h3>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h3 class="skill-name" data-es="Herramientas de ciberseguridad (NETSCOUT, Trellix, Sophos, CrowdStrike, Splunk)" data-en="Cybersecurity tools (NETSCOUT, Trellix, Sophos, CrowdStrike, Splunk)">Herramientas de ciberseguridad (NETSCOUT, Trellix, Sophos, CrowdStrike, Splunk)</h3>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h3 class="skill-name" data-es="Gestión de riesgos y análisis de amenazas" data-en="Risk management and threat analysis">Gestión de riesgos y análisis de amenazas</h3>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="progress-bar" style="width: 88%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section section--bg">
+            <div class="container">
+                <h2 class="section__title" data-es="Preparación Académica" data-en="Academic Background">Preparación Académica</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content card">
+                            <div class="card__body">
+                                <h3 class="timeline-title" data-es="Ingeniería en Sistemas Computacionales con especialización en Visión Computacional" data-en="Computer Systems Engineering with Computer Vision specialization">Ingeniería en Sistemas Computacionales con especialización en Visión Computacional</h3>
+                                <p class="timeline-institution" data-es="Universidad Virtual del Estado de Guanajuato" data-en="Virtual University of the State of Guanajuato">Universidad Virtual del Estado de Guanajuato</p>
+                                <p class="timeline-period" data-es="Enero 2020 - 2023 • 98% completado, título pendiente" data-en="January 2020 - 2023 • 98% completed, degree pending">Enero 2020 - 2023 • 98% completado, título pendiente</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content card">
+                            <div class="card__body">
+                                <h3 class="timeline-title" data-es="Licenciatura en Informática" data-en="Bachelor's Degree in Computer Science">Licenciatura en Informática</h3>
+                                <p class="timeline-institution" data-es="Universidad Autónoma del Estado de Hidalgo" data-en="Autonomous University of the State of Hidalgo">Universidad Autónoma del Estado de Hidalgo</p>
+                                <p class="timeline-period" data-es="2013-2018 • Hasta 5to semestre, promedio 8.42" data-en="2013-2018 • Up to 5th semester, average 8.42">2013-2018 • Hasta 5to semestre, promedio 8.42</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content card">
+                            <div class="card__body">
+                                <h3 class="timeline-title" data-es="Técnico en Informática" data-en="Computer Technician">Técnico en Informática</h3>
+                                <p class="timeline-institution" data-es="Centro de Bachillerato Tecnológico Industrial y de Servicios CBTis No. 8" data-en="Industrial and Services Technological High School Center CBTis No. 8">Centro de Bachillerato Tecnológico Industrial y de Servicios CBTis No. 8</p>
+                                <p class="timeline-period" data-es="Agosto 2009 - Julio 2012 • Certificado completo" data-en="August 2009 - July 2012 • Complete certificate">Agosto 2009 - Julio 2012 • Certificado completo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Training Section -->
+        <section id="training" class="section">
+            <div class="container">
+                <h2 class="section__title" data-es="Formación Adicional" data-en="Additional Training">Formación Adicional</h2>
+                <div class="training-grid">
+                    <div class="card">
+                        <div class="card__body">
+                            <h3 class="card__title" data-es="Cursos Recientes (2024-2025)" data-en="Recent Courses (2024-2025)">Cursos Recientes (2024-2025)</h3>
+                            <ul class="training-list">
+                                <li data-es="Programa Especializado en Ciberseguridad - Google (2025)" data-en="Specialized Cybersecurity Program - Google (2025)">Programa Especializado en Ciberseguridad - Google (2025)</li>
+                                <li data-es="Especialización en Ciberseguridad - Netzun (2024)" data-en="Cybersecurity Specialization - Netzun (2024)">Especialización en Ciberseguridad - Netzun (2024)</li>
+                                <li>SOC 101 - Security Operations Center (2025)</li>
+                                <li data-es="Investigación de Fuente Abierta (2025)" data-en="Open Source Investigation (2025)">Investigación de Fuente Abierta (2025)</li>
+                                <li>Ethical Hacking - Programming HUB (2025)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__body">
+                            <h3 class="card__title" data-es="Certificaciones" data-en="Certifications">Certificaciones</h3>
+                            <ul class="training-list">
+                                <li>CCNA CyberOps 200-201 (2025)</li>
+                                <li>Cisco Cybersecurity Operations Fundamentals (2024)</li>
+                                <li data-es="Cursos del Certificado de Ciberseguridad de Google (2024-2025)" data-en="Google Cybersecurity Certificate courses (2024-2025)">Cursos del Certificado de Ciberseguridad de Google (2024-2025)</li>
+                                <li data-es="Certificaciones Fortinet NSE 1, 2, 3 (2023)" data-en="Fortinet NSE 1, 2, 3 certifications (2023)">Certificaciones Fortinet NSE 1, 2, 3 (2023)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section id="experience" class="section section--bg">
+            <div class="container">
+                <h2 class="section__title" data-es="Experiencia Profesional" data-en="Professional Experience">Experiencia Profesional</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker timeline-marker--current"></div>
+                        <div class="timeline-content card">
+                            <div class="card__body">
+                                <h3 class="timeline-title">SOC Analyst N1 TT</h3>
+                                <p class="timeline-institution">BESTEL</p>
+                                <p class="timeline-period" data-es="Agosto 2023 - Presente" data-en="August 2023 - Present">Agosto 2023 - Presente</p>
+                                <p class="timeline-description" data-es="Monitoreo de disponibilidad de activos usando PRTG, SolarWinds, Uptimerobot, Nagios, Traverse y NETSCOUT. Análisis y mitigación de amenazas, gestión de firewalls, monitoreo de eventos de seguridad en múltiples plataformas." data-en="Asset availability monitoring using PRTG, SolarWinds, Uptimerobot, Nagios, Traverse, and NETSCOUT. Threat analysis and mitigation, firewall management, security event monitoring across multiple platforms.">Monitoreo de disponibilidad de activos usando PRTG, SolarWinds, Uptimerobot, Nagios, Traverse y NETSCOUT. Análisis y mitigación de amenazas, gestión de firewalls, monitoreo de eventos de seguridad en múltiples plataformas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content card">
+                            <div class="card__body">
+                                <h3 class="timeline-title" data-es="Asistente de Soporte Técnico" data-en="Technical Support Assistant">Asistente de Soporte Técnico</h3>
+                                <p class="timeline-institution">ATENTO México</p>
+                                <p class="timeline-period" data-es="Abril 2022 - Julio 2023" data-en="April 2022 - July 2023">Abril 2022 - Julio 2023</p>
+                                <p class="timeline-description" data-es="Soporte en call center local, instalación y mantenimiento de equipos, configuración de redes, creación de scripts, gestión de tickets." data-en="Local call center support, equipment installation and maintenance, network configuration, script creation, ticket management.">Soporte en call center local, instalación y mantenimiento de equipos, configuración de redes, creación de scripts, gestión de tickets.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content card">
+                            <div class="card__body">
+                                <h3 class="timeline-title" data-es="Especialista Junior" data-en="Junior Specialist">Especialista Junior</h3>
+                                <p class="timeline-institution">ASUS/BELOW THE LINE OPERATIONS</p>
+                                <p class="timeline-period" data-es="Enero 2022 - Abril 2022" data-en="January 2022 - April 2022">Enero 2022 - Abril 2022</p>
+                                <p class="timeline-description" data-es="Promoción y demostración de productos, servicio al cliente, reportes de ventas." data-en="Product promotion and demonstration, customer service, sales reporting.">Promoción y demostración de productos, servicio al cliente, reportes de ventas.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content card">
+                            <div class="card__body">
+                                <h3 class="timeline-title" data-es="Promotor" data-en="Promoter">Promotor</h3>
+                                <p class="timeline-institution">Epson/D.P.R HR S.A. DE C.V.</p>
+                                <p class="timeline-period" data-es="Septiembre 2021 - Diciembre 2021" data-en="September 2021 - December 2021">Septiembre 2021 - Diciembre 2021</p>
+                                <p class="timeline-description" data-es="Promoción de productos, servicio al cliente, gestión de mercancía." data-en="Product promotion, customer service, merchandise management.">Promoción de productos, servicio al cliente, gestión de mercancía.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content card">
+                            <div class="card__body">
+                                <h3 class="timeline-title" data-es="Agente de Módulo" data-en="Module Agent">Agente de Módulo</h3>
+                                <p class="timeline-institution">Office Depot/Mr. Fix</p>
+                                <p class="timeline-period" data-es="Enero 2021 - Septiembre 2021" data-en="January 2021 - September 2021">Enero 2021 - Septiembre 2021</p>
+                                <p class="timeline-description" data-es="Soporte técnico, instalación de hardware, reparación de teléfonos, gestión de garantías." data-en="Technical support, hardware installation, phone repair, warranty management.">Soporte técnico, instalación de hardware, reparación de teléfonos, gestión de garantías.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <div class="container">
+                <h2 class="section__title" data-es="Logros Destacados" data-en="Notable Achievements">Logros Destacados</h2>
+                <div class="achievements-grid">
+                    <div class="card">
+                        <div class="card__body">
+                            <div class="achievement-item">
+                                <div class="achievement-icon">🤖</div>
+                                <h3 class="achievement-title" data-es="Automatización de tareas administrativas" data-en="Administrative task automation">Automatización de tareas administrativas</h3>
+                                <p class="achievement-description" data-es="Desarrollo de scripts en Bash y WMIC para automatizar procesos repetitivos en Atento México, mejorando la eficiencia operativa." data-en="Development of Bash scripts and WMIC for automating repetitive processes at Atento México, improving operational efficiency.">Desarrollo de scripts en Bash y WMIC para automatizar procesos repetitivos en Atento México, mejorando la eficiencia operativa.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card__body">
+                            <div class="achievement-item">
+                                <div class="achievement-icon">🔧</div>
+                                <h3 class="achievement-title" data-es="Herramienta de monitoreo de red" data-en="Network monitoring tool">Herramienta de monitoreo de red</h3>
+                                <p class="achievement-description" data-es="Desarrollo de herramienta personalizada para monitoreo de red con notificaciones automáticas en Bestel, optimizando la detección temprana de incidentes." data-en="Development of custom network monitoring tool with automatic notifications at Bestel, optimizing early incident detection.">Desarrollo de herramienta personalizada para monitoreo de red con notificaciones automáticas en Bestel, optimizando la detección temprana de incidentes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section id="interests" class="section section--bg">
+            <div class="container">
+                <h2 class="section__title" data-es="Intereses" data-en="Interests">Intereses</h2>
+                <div class="interests-grid">
+                    <div class="interest-item">
+                        <div class="interest-icon">🔐</div>
+                        <h3 class="interest-title" data-es="Ciberseguridad" data-en="Cybersecurity">Ciberseguridad</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🤖</div>
+                        <h3 class="interest-title" data-es="Inteligencia Artificial" data-en="Artificial Intelligence">Inteligencia Artificial</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">💻</div>
+                        <h3 class="interest-title" data-es="Tecnología" data-en="Technology">Tecnología</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🚗</div>
+                        <h3 class="interest-title" data-es="Automóvil y mecánica" data-en="Automobile and mechanics">Automóvil y mecánica</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🎵</div>
+                        <h3 class="interest-title" data-es="Música" data-en="Music">Música</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🎨</div>
+                        <h3 class="interest-title" data-es="Diseño" data-en="Design">Diseño</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">💻</div>
+                        <h3 class="interest-title" data-es="Programación" data-en="Programming">Programación</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🎮</div>
+                        <h3 class="interest-title" data-es="Videojuegos" data-en="Video games">Videojuegos</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">📚</div>
+                        <h3 class="interest-title" data-es="Aprendizaje continuo" data-en="Continuous learning">Aprendizaje continuo</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🍳</div>
+                        <h3 class="interest-title" data-es="Gastronomía" data-en="Gastronomy">Gastronomía</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🔧</div>
+                        <h3 class="interest-title" data-es="Ensamble" data-en="Assembly">Ensamble</h3>
+                    </div>
+
+                    <div class="interest-item">
+                        <div class="interest-icon">🎬</div>
+                        <h3 class="interest-title" data-es="Cine documental o ciencia ficción" data-en="Documentary or science fiction cinema">Cine documental o ciencia ficción</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🎤</div>
+                        <h3 class="interest-title" data-es="Participación en eventos de divulgación tecnológica" data-en="Participation in technological dissemination events">Participación en eventos de divulgación tecnológica</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">👥</div>
+                        <h3 class="interest-title" data-es="Participación en comunidades tecnológicas" data-en="Participation in technological communities">Participación en comunidades tecnológicas</h3>
+                    </div>
+                    <div class="interest-item">
+                        <div class="interest-icon">🥾</div>
+                        <h3 class="interest-title" data-es="Senderismo o caminatas urbanas" data-en="Hiking or urban walks">Senderismo o caminatas urbanas</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section id="contact" class="section final-section">
+            <div class="container">
+                <h2 class="section__title" data-es="Contacto" data-en="Contact">Contacto</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3 class="contact-info__title" data-es="Información de Contacto" data-en="Contact Information">Información de Contacto</h3>
+                        <div class="contact-info__item">
+                            <span class="contact-icon">📧</span>
+                            <span class="contact-text">raul.ehm@onmail.com</span>
+                        </div>
+                        <div class="contact-info__item">
+                            <span class="contact-icon">📍</span>
+                            <span class="contact-text">Pachuca de Soto, Hidalgo</span>
+                        </div>
+                        <p class="contact-description" data-es="¡Me gustaría escuchar de ti! Envíame un mensaje y me pondré en contacto contigo lo antes posible." data-en="I'd love to hear from you! Send me a message and I'll get back to you as soon as possible.">¡Me gustaría escuchar de ti! Envíame un mensaje y me pondré en contacto contigo lo antes posible.</p>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label" data-es="Nombre" data-en="Name">Nombre</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                            <div class="form-error" id="nameError"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label" data-es="Correo Electrónico" data-en="Email">Correo Electrónico</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                            <div class="form-error" id="emailError"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label" data-es="Mensaje" data-en="Message">Mensaje</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                            <div class="form-error" id="messageError"></div>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width" id="submitBtn">
+                            <span class="submit-text" data-es="Enviar Mensaje" data-en="Send Message">Enviar Mensaje</span>
+                            <span class="submit-loading hidden" data-es="Enviando..." data-en="Sending...">Enviando...</span>
+                        </button>
+                        <div class="form-success hidden" id="formSuccess">
+                            <span data-es="¡Mensaje enviado correctamente! Te responderé pronto." data-en="Message sent successfully! I'll respond soon.">¡Mensaje enviado correctamente! Te responderé pronto.</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p class="footer__text" data-es="© 2025 Raúl Eduardo Hernández Mendoza. Todos los derechos reservados." data-en="© 2025 Raúl Eduardo Hernández Mendoza. All rights reserved.">© 2025 Raúl Eduardo Hernández Mendoza. Todos los derechos reservados.</p>
+                <p class="footer__contact">raul.ehm@onmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
