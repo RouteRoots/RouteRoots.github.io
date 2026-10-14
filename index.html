@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raúl Eduardo Hernández Mendoza | Ingeniero en Sistemas Computacionales · Analista SOC</title>
+  <meta name="description" content="CV de Raúl Eduardo Hernández Mendoza, Ingeniero en Sistemas Computacionales especializado en ciberseguridad, soporte técnico y monitoreo SOC.">
+  <!-- Aplica el tema antes de pintar la página para evitar parpadeo -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('tema');
+        if (!t) t = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'oscuro' : 'claro';
+        document.documentElement.setAttribute('data-tema', t);
+      } catch (e) { document.documentElement.setAttribute('data-tema', 'claro'); }
+    })();
+  </script>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="saltar" href="#principal">Saltar al contenido</a>
+
+  <header class="barra" id="barra">
+    <nav class="nav contenedor" aria-label="Navegación principal">
+      <a href="#inicio" class="logo" aria-label="Inicio">RH<span>.</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="menu" id="menu">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#intereses">Intereses</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <button class="tema-btn" id="temaBtn" aria-label="Cambiar tema claro/oscuro">
+        <svg class="ico-sol" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.2 4.2l1.4 1.4M18.4 18.4l1.4 1.4M1 12h2M21 12h2M4.2 19.8l1.4-1.4M18.4 5.6l1.4-1.4"/></svg>
+        <svg class="ico-luna" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+    </nav>
+  </header>
+
+  <main id="principal">
+    <!-- HERO -->
+    <section class="hero contenedor" id="inicio" aria-labelledby="nombre">
+      <div class="hero-texto revelar">
+        <p class="etiqueta">Hola, soy</p>
+        <h1 id="nombre">Raúl Eduardo <br><span class="acento">Hernández Mendoza</span></h1>
+        <p class="hero-rol">Computer Systems Engineer | IT/IS Technician | SOC Analyst L1 &amp; Cybersecurity Professional</p>
+        <p class="hero-desc">Soporte técnico, administración de infraestructura y ciberseguridad: monitoreo de activos, análisis de amenazas y protección de sistemas en entornos SOC.</p>
+        <div class="hero-acciones">
+          <a href="#contacto" class="btn btn-primario">Contáctame</a>
+          <a href="#experiencia" class="btn btn-secundario">Ver experiencia</a>
+        </div>
+        <ul class="sociales" aria-label="Enlaces de contacto">
+          <li><a href="mailto:contactactame@proton.me" aria-label="Enviar correo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v16H4z" fill="none"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2" fill="none"/></svg></a></li>
+          <li><a href="https://www.linkedin.com/in/ra%C3%BAl-eduardo-hern%C3%A1ndez-mendoza-2163911a6" target="_blank" rel="noopener" aria-label="LinkedIn (abre en nueva pestaña)"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a></li>
+        </ul>
+      </div>
+      <div class="hero-foto revelar">
+        <img src="assets/foto.jpg" alt="Foto de perfil de Raúl Eduardo Hernández Mendoza" width="640" height="640">
+      </div>
+    </section>
+
+    <!-- SOBRE MÍ -->
+    <section class="seccion contenedor" id="sobre-mi" aria-labelledby="t-sobre">
+      <h2 class="titulo-seccion revelar" id="t-sobre"><span>01.</span> Sobre mí</h2>
+      <div class="sobre-grid">
+        <div class="revelar">
+          <p>Ingeniero en Sistemas Computacionales enfocado en Ciberseguridad y Operaciones de Seguridad (SOC), actualmente cursando una Maestría en Seguridad Informática Avanzada y Una en Inteligencia Artificial en Ciberseguridad. Combino sólidas bases en soporte técnico de TI e infraestructura de redes con experiencia directa en el análisis, detección y mitigación de amenazas tecnológicas. Como Analista SOC, me especializo en el monitoreo de activos, análisis forense de eventos de seguridad mediante herramientas SIEM (Splunk), y el uso de inteligencia de amenazas (VirusTotal, Cisco Talos) para la protección proactiva de sistemas corporativos. Me distingo por mi capacidad para automatizar procesos operativos mediante scripting (Python, Bash) y mi enfoque constante en la mejora continua bajo marcos de trabajo como ITIL v4.</p>
+          <h3 class="subtitulo">Logros destacados</h3>
+          <ul class="lista-check">
+            <li>Automatización de tareas administrativas mediante la creación de scripts en Bash y el uso de WMIC para compartir y eliminar archivos, así como para instalar y desinstalar programas de forma eficiente en entornos Windows — Atento México (Pachuca).</li>
+            <li>Desarrollo de herramienta de monitoreo de red, capaz de supervisar el estado de múltiples IPs y generar notificaciones automáticas cuando un activo presenta una indisponibilidad o disponibilidad, mejorando la visibilidad y respuesta ante fallos de infraestructura — Bestel.</li>
+          </ul>
+        </div>
+        <aside class="tarjeta datos revelar" aria-label="Datos personales">
+          <h3>Datos</h3>
+          <dl>
+            <dt>Ubicación</dt><dd>Pachuca de Soto, Hidalgo</dd>
+            <dt>Idiomas</dt><dd>Español: idioma natal<br>Inglés: A2 (UVEG, constancia)</dd>
+            <dt>Estudios actuales</dt><dd>Maestría en Seguridad Informática Avanzada — TECH Universidad<br>Maestría en Inteligencia Artificial en Ciberseguridad</dd>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section class="seccion contenedor" id="experiencia" aria-labelledby="t-exp">
+      <h2 class="titulo-seccion revelar" id="t-exp"><span>02.</span> Experiencia</h2>
+      <ol class="linea-tiempo">
+        <li class="revelar">
+          <article class="tarjeta">
+            <header><h3>Analista SOC N1</h3><p class="empresa">TT - BESTEL</p><p class="fecha">agosto 2023 – Actual</p></header>
+            <ul>
+              <li>Supervisión de disponibilidad de activos mediante herramientas como PRTG, SolarWinds, ITRS Uptrends, Nagios, Traverse y NETSCOUT Arbor Edge Defense.</li>
+              <li>Gestión de alertas por indisponibilidad de activos y respuesta oportuna ante incidentes críticos.</li>
+              <li>Análisis, notificación y mitigación de amenazas en la plataforma NETSCOUT Arbor Sightline, incluyendo captura y evaluación de tráfico malicioso.</li>
+              <li>Investigación de IPs y URLs sospechosas utilizando herramientas como VirusTotal, Cisco Talos, FortiGuard, Kaspersky Threat Intelligence Portal, SOC Radar, entre otras.</li>
+              <li>Bloqueo proactivo de amenazas en firewalls, incluyendo IPs y URLs maliciosas.</li>
+              <li>Detección y reporte de actividad sospechosa en correos electrónicos y eventos mediante Trellix, con enfoque en prevención de ataques de phishing y malware.</li>
+              <li>Monitoreo y análisis de eventos de seguridad en plataformas como Firewall Manager Center, Firepower Manager Center, Sophos, Akamai, Trend Micro Vision One, SOC Radar, IndSights, TRAPX, ESET Protect, CrowdStrike Falcon, Microsoft Defender y Proofpoint.</li>
+              <li>Validación y gestión de políticas de seguridad, incluyendo activación y desactivación de reglas en Akamai y Trend Micro.</li>
+              <li>Generación de reportes de inteligencia sobre actividad sospechosa para equipos de respuesta y gestión.</li>
+              <li>Uso de SIEM Splunk para correlación de eventos y análisis forense.</li>
+              <li>Gestión de activos y endpoints mediante la herramienta Ivanti, incluyendo búsqueda, análisis y control remoto.</li>
+            </ul>
+          </article>
+        </li>
+        <li class="revelar">
+          <article class="tarjeta">
+            <header><h3>Auxiliar de Soporte Técnico</h3><p class="empresa">ATENTO México</p><p class="fecha">abril 2022 – julio 2023</p></header>
+            <p>Soporte local en piso del call center: depuración y verificación de equipos de asesores, liberación de sesiones, instalación de equipos de cómputo e impresoras en red, mantenimiento, clonado de sistemas operativos, cambio de periféricos y equipo de cómputo; activación, configuración y actualización de software (Office, Siphone, correos y extensiones); creación y diagnóstico de cableado UTP, reparación de equipos, peinado de cables en racks, configuración de routers y access points; obtención de puertos de red (VLAN, Switch, MAC, Puerto), configuración de IPs y alta de equipos a dominio, mapeo de rutas, instalación y configuración de teléfonos Avaya One; creación de imágenes de sistemas operativos, levantamiento de tickets y creación de bats y scripts.</p>
+          </article>
+        </li>
+        <li class="revelar">
+          <article class="tarjeta">
+            <header><h3>Especialista Jr</h3><p class="empresa">ASUS / Below The Line Operations S de RL de CV – PROMERC</p><p class="fecha">enero 2022 – abril 2022</p></header>
+            <p>Promoción y demostración de productos ASUS; promoción de servicios y garantías extendidas; acomodo de mercancía, resurtido de mostrador, reporte de ventas diarias y semanales; asesoría, captación y retención de clientes.</p>
+          </article>
+        </li>
+        <li class="revelar">
+          <article class="tarjeta">
+            <header><h3>Promovendedor</h3><p class="empresa">Epson / D.P.R HR S.A. de C.V.</p><p class="fecha">septiembre 2021 – diciembre 2021</p></header>
+            <p>Promoción y demostración de productos EPSON; promoción de insumos y servicios; acomodo de mercancía, resurtido de mostrador, reporte de ventas diarias y semanales; asesoría, captación y retención de clientes.</p>
+          </article>
+        </li>
+        <li class="revelar">
+          <article class="tarjeta">
+            <header><h3>Agente de módulo</h3><p class="empresa">Office Depot / Mr. Fix</p><p class="fecha">enero 2021 – septiembre 2021</p></header>
+            <p>Soporte técnico de computadoras, instalación de software, actualización de componentes de PC, instalación de discos duros y memoria RAM, diagnóstico y reparación, reparación de teléfonos, gestión de garantía; asesoría, captación y retención de clientes; venta de equipos y accesorios de cómputo.</p>
+          </article>
+        </li>
+      </ol>
+    </section>
+
+    <!-- EDUCACIÓN -->
+    <section class="seccion contenedor" id="educacion" aria-labelledby="t-edu">
+      <h2 class="titulo-seccion revelar" id="t-edu"><span>03.</span> Educación</h2>
+      <div class="grid-tarjetas">
+        <article class="tarjeta revelar destacada">
+          <p class="fecha">En curso</p>
+          <h3>Maestría en Seguridad Informática Avanzada</h3>
+          <p class="empresa">TECH Universidad</p>
+          <p class="nota">Duración: 2 años</p>
+        </article>
+        <article class="tarjeta revelar destacada">
+          <p class="fecha">En curso</p>
+          <h3>Maestría en Inteligencia Artificial en Ciberseguridad</h3>
+          <p class="nota">Duración: 2 años</p>
+        </article>
+        <article class="tarjeta revelar">
+          <p class="fecha">enero 2021 – 2025 · Virtual</p>
+          <h3>Licenciatura en Ingeniería en Sistemas Computacionales</h3>
+          <p class="empresa">Centro Universitario de España y México</p>
+          <p class="nota">Documentación: Certificado, Título y Cédula Profesional</p>
+        </article>
+        <article class="tarjeta revelar">
+          <p class="fecha">enero 2020 – 2023 · Virtual</p>
+          <h3>Ingeniería en Sistemas Computacionales con especialidad en Visión por Computadora</h3>
+          <p class="empresa">Universidad Virtual del Estado de Guanajuato</p>
+          <p class="nota">Documentación: Constancia y Certificado parcial</p>
+        </article>
+        <article class="tarjeta revelar">
+          <p class="fecha">2013 – 2018</p>
+          <h3>Licenciatura en Ciencias Computacionales</h3>
+          <p class="empresa">Universidad Autónoma del Estado de Hidalgo</p>
+          <p class="nota">Certificado hasta 5.º semestre</p>
+        </article>
+        <article class="tarjeta revelar">
+          <p class="fecha">agosto 2009 – julio 2012</p>
+          <h3>Técnico en Informática</h3>
+          <p class="empresa">CBTis N.° 8</p>
+          <p class="nota">Certificado total de estudios</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="seccion contenedor" id="habilidades" aria-labelledby="t-hab">
+      <h2 class="titulo-seccion revelar" id="t-hab"><span>04.</span> Habilidades</h2>
+      <div class="grid-tarjetas">
+        <article class="tarjeta revelar">
+          <h3>Ciberseguridad y SOC</h3>
+          <p>Gestión de riesgos, protección de sistemas y análisis de seguridad en redes y nube. Análisis y mitigación de amenazas, reportes técnicos, bloqueo en firewalls y validación de políticas de seguridad.</p>
+          <ul class="chips"><li>Splunk</li><li>NETSCOUT</li><li>Trellix</li><li>Sophos</li><li>CrowdStrike</li><li>VirusTotal</li><li>Talos</li><li>SOC Radar</li><li>Ivanti</li><li>VPNs</li><li>IDS/IPS</li></ul>
+        </article>
+        <article class="tarjeta revelar">
+          <h3>Redes e infraestructura</h3>
+          <p>Diseño e instalación de redes, incluyendo planta externa y fibra óptica; configuración, diagnóstico y reparación de redes LAN.</p>
+          <ul class="chips"><li>LAN</li><li>Fibra óptica</li><li>Cableado UTP</li><li>VLAN</li><li>Routers / AP</li></ul>
+        </article>
+        <article class="tarjeta revelar">
+          <h3>Soporte técnico</h3>
+          <p>Mantenimiento preventivo y correctivo de sistemas de cómputo; reparación de periféricos y móviles (impresoras, escáneres, módems, celulares, tablets); eliminación de virus y respaldo de información.</p>
+          <ul class="chips"><li>Hardware</li><li>Software</li><li>Microsoft Office</li></ul>
+        </article>
+        <article class="tarjeta revelar">
+          <h3>Programación y procesos</h3>
+          <p>Conocimientos básicos en programación y gestión de procesos y mejora continua mediante ITIL v4 Foundation.</p>
+          <ul class="chips"><li>C++</li><li>C#</li><li>Python</li><li>HTML</li><li>CSS</li><li>SQL</li><li>Java</li><li>JavaScript</li><li>Linux</li><li>ITIL v4</li></ul>
+        </article>
+        <article class="tarjeta revelar">
+          <h3>Habilidades blandas</h3>
+          <ul class="chips"><li>Capacidad de análisis</li><li>Servicio de atención al cliente</li><li>Asesoramiento de clientes</li><li>Manejo y Resolución de incidencias</li><li>Manejo y Resolución de conflictos</li><li>Adaptabilidad</li><li>Autodidacta</li><li>Gestión del Tiempo</li><li>Trabajo Remoto</li></ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- INTERESES -->
+    <section class="seccion contenedor" id="intereses" aria-labelledby="t-int">
+      <h2 class="titulo-seccion revelar" id="t-int"><span>05.</span> Intereses</h2>
+      <ul class="grid-intereses">
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">🔐</span><span class="interes-titulo">Ciberseguridad</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">🤖</span><span class="interes-titulo">Inteligencia Artificial</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">💻</span><span class="interes-titulo">Tecnología</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">🚗</span><span class="interes-titulo">Automóvil y mecánica</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">🎵</span><span class="interes-titulo">Música</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">🎨</span><span class="interes-titulo">Diseño</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">💻</span><span class="interes-titulo">Programación</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">🎮</span><span class="interes-titulo">Videojuegos</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">📚</span><span class="interes-titulo">Aprendizaje continuo</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">🍳</span><span class="interes-titulo">Gastronomía</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">🔧</span><span class="interes-titulo">Ensamble</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">🎬</span><span class="interes-titulo">Cine documental o ciencia ficción</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">🎤</span><span class="interes-titulo">Participación en eventos de divulgación tecnológica</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">👥</span><span class="interes-titulo">Participación en comunidades tecnológicas</span></li>
+        <li class="tarjeta interes revelar"><span class="interes-emoji" aria-hidden="true">🥾</span><span class="interes-titulo">Senderismo o caminatas urbanas</span></li>
+      </ul>
+    </section>
+
+    <!-- FORMACIÓN ADICIONAL (dinámica desde datos.json) -->
+    <section class="seccion contenedor" id="formacion" aria-labelledby="t-form">
+      <h2 class="titulo-seccion revelar" id="t-form"><span>06.</span> Formación adicional</h2>
+      <div class="filtros" role="tablist" aria-label="Categorías de formación adicional" id="filtros">
+        <button role="tab" class="filtro activo" aria-selected="true" data-cat="todas">Todas <span class="contador" data-contador="todas">0</span></button>
+        <button role="tab" class="filtro" aria-selected="false" data-cat="certificados">Certificados / Constancias <span class="contador" data-contador="certificados">0</span></button>
+        <button role="tab" class="filtro" aria-selected="false" data-cat="webinars">Webinars <span class="contador" data-contador="webinars">0</span></button>
+        <button role="tab" class="filtro" aria-selected="false" data-cat="conferencias">Conferencias <span class="contador" data-contador="conferencias">0</span></button>
+        <button role="tab" class="filtro" aria-selected="false" data-cat="certificaciones">Certificaciones Oficiales <span class="contador" data-contador="certificaciones">0</span></button>
+        <button role="tab" class="filtro" aria-selected="false" data-cat="diplomados">Diplomados <span class="contador" data-contador="diplomados">0</span></button>
+      </div>
+      <div id="formacionContenido" class="formacion-contenido" role="tabpanel" aria-live="polite">
+        <p class="cargando">Cargando formación…</p>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="seccion contenedor" id="contacto" aria-labelledby="t-con">
+      <h2 class="titulo-seccion revelar" id="t-con"><span>07.</span> Contacto</h2>
+      <div class="contacto-grid">
+        <div class="revelar">
+          <p>¿Tienes una vacante, proyecto o pregunta? Escríbeme y te responderé lo antes posible.</p>
+          <ul class="contacto-lista">
+            <li><strong>Correo:</strong> <a href="mailto:contactactame@proton.me">contactactame@proton.me</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ra%C3%BAl-eduardo-hern%C3%A1ndez-mendoza-2163911a6" target="_blank" rel="noopener">raúl-eduardo-hernández-mendoza</a></li>
+            <li><strong>Ubicación:</strong> Pachuca de Soto, Hidalgo, México</li>
+          </ul>
+        </div>
+        <form class="tarjeta formulario revelar" id="formContacto" novalidate>
+          <input type="hidden" name="subject_prefix" value="Nuevo mensaje desde tu CV">
+          <!-- Honeypot antispam: los humanos no lo ven -->
+          <input type="checkbox" name="botcheck" class="oculto" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="campo">
+            <label for="nombreC">Nombre</label>
+            <input id="nombreC" name="name" type="text" autocomplete="name" required aria-describedby="err-nombreC">
+            <small class="error" id="err-nombreC"></small>
+          </div>
+          <div class="campo">
+            <label for="correoC">Correo</label>
+            <input id="correoC" name="email" type="email" autocomplete="email" required aria-describedby="err-correoC">
+            <small class="error" id="err-correoC"></small>
+          </div>
+          <div class="campo">
+            <label for="asuntoC">Asunto</label>
+            <input id="asuntoC" name="subject" type="text" required aria-describedby="err-asuntoC">
+            <small class="error" id="err-asuntoC"></small>
+          </div>
+          <div class="campo">
+            <label for="mensajeC">Mensaje</label>
+            <textarea id="mensajeC" name="message" rows="5" required aria-describedby="err-mensajeC"></textarea>
+            <small class="error" id="err-mensajeC"></small>
+          </div>
+          <div class="campo campo-check">
+            <input id="consentC" type="checkbox" required aria-describedby="err-consentC">
+            <label for="consentC">Acepto que mis datos se usen solo para responder a este mensaje (<a href="#privacidad">aviso de privacidad</a>).</label>
+            <small class="error" id="err-consentC"></small>
+          </div>
+          <button type="submit" class="btn btn-primario" id="btnEnviar"><span class="spinner" aria-hidden="true"></span><span class="btn-texto">Enviar mensaje</span></button>
+          <div class="estado" id="estadoForm" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+      <p class="privacidad" id="privacidad"><strong>Aviso de privacidad:</strong> los datos enviados en este formulario (nombre, correo, asunto y mensaje) se utilizan únicamente para responder a tu contacto y no se comparten con terceros, salvo el servicio de envío de correo que procesa el formulario.</p>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor">
+      <p>© <span id="anio"></span> Raúl Eduardo Hernández Mendoza · Hecho con HTML, CSS y JavaScript</p>
+      <a href="#inicio" class="arriba" aria-label="Volver arriba">↑</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
