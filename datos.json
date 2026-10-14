@@ -1,5 +1,5 @@
 {
-  "_instrucciones": "Para agregar un elemento, copia un objeto {titulo, institucion, fecha, descripcion, enlace} y pégalo dentro del arreglo de su categoría (certificados, webinars, conferencias, certificaciones o diplomados). Solo 'titulo' es obligatorio. Las claves que empiezan con '_' se ignoran.",
+  "_instrucciones": "Para agregar un elemento, copia un objeto {titulo, institucion, fecha, descripcion, enlace} y pégalo dentro del arreglo de su categoría (certificados, constancias, webinars, conferencias, certificaciones o diplomados). Solo 'titulo' es obligatorio. Las claves que empiezan con '_' se ignoran.",
   "_ejemplo": {
     "titulo": "Nombre del curso o evento",
     "institucion": "Institución que lo emite",
@@ -304,8 +304,108 @@
         "enlace": ""
       }
     ],
-    "webinars": [],
-    "conferencias": [],
+    "webinars": [
+      {
+        "titulo": "Webinar Microsoft: Seguridad, Cumplimiento e Identidad",
+        "institucion": "Netec",
+        "fecha": "Agosto 2026",
+        "descripcion": "",
+        "enlace": ""
+      }
+    ],
+    "conferencias": [
+      {
+        "titulo": "Certificado de participación Blockchain Land @ Home – 2020",
+        "institucion": "Talent Land",
+        "fecha": "2020",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado de participación Gamer Land @ Home – 2020",
+        "institucion": "Talent Land",
+        "fecha": "2020",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado de participación Health Land @ Home – 2020",
+        "institucion": "Talent Land",
+        "fecha": "2020",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado de participación Fashion Land @ Home – 2020",
+        "institucion": "Talent Land",
+        "fecha": "2020",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado de participación Future Land @ Home – 2020",
+        "institucion": "Talent Land",
+        "fecha": "2020",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado de participación Blockchain Land @ Home – 2021",
+        "institucion": "Talent Land",
+        "fecha": "2021",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado de participación Business Land @ Home – 2021",
+        "institucion": "Talent Land",
+        "fecha": "2021",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado de participación Creative Land @ Home – 2021",
+        "institucion": "Talent Land",
+        "fecha": "2021",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado de participación Developer Land @ Home – 2021",
+        "institucion": "Talent Land",
+        "fecha": "2021",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado de participación Iron Land @ Home – 2021",
+        "institucion": "Talent Land",
+        "fecha": "2021",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado de participación Talent Jobs @ Home – 2021",
+        "institucion": "Talent Land",
+        "fecha": "2021",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado de participación Travel Land @ Home – 2021",
+        "institucion": "Talent Land",
+        "fecha": "2021",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Constancia participación en la consulta para la actualización del Plan Estatal de Desarrollo",
+        "institucion": "Gobierno del estado de Hidalgo",
+        "fecha": "2021",
+        "descripcion": "",
+        "enlace": ""
+      }
+    ],
     "certificaciones": [
       {
         "titulo": "Ethical Hacking Certified Associate",
@@ -376,6 +476,13 @@
         "fecha": "2023",
         "descripcion": "",
         "enlace": ""
+      },
+      {
+        "titulo": "Certificado Introduction to Critical Infrastructure Protection",
+        "institucion": "OPSWAT",
+        "fecha": "Septiembre 2026",
+        "descripcion": "",
+        "enlace": ""
       }
     ],
     "diplomados": [
@@ -383,6 +490,29 @@
         "titulo": "Diplomado Técnico en Sistemas Informáticos (421 hrs)",
         "institucion": "Capacítate para el empleo, Fundación Carlos Slim",
         "fecha": "2020",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Diploma Técnico en OSINT y SOCMINT",
+        "institucion": "GOBERNA",
+        "fecha": "Octubre 2026",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Diplomado en CLOUD COMPUTING",
+        "institucion": "Instituto Educativo de Informática y Computación",
+        "fecha": "Agosto 2026",
+        "descripcion": "",
+        "enlace": ""
+      }
+    ],
+    "constancias": [
+      {
+        "titulo": "Constancia Finanzas para emprendedores",
+        "institucion": "México X – UNAM",
+        "fecha": "Julio 2016",
         "descripcion": "",
         "enlace": ""
       }
