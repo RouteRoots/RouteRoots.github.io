@@ -1,0 +1,391 @@
+{
+  "_instrucciones": "Para agregar un elemento, copia un objeto {titulo, institucion, fecha, descripcion, enlace} y pégalo dentro del arreglo de su categoría (certificados, webinars, conferencias, certificaciones o diplomados). Solo 'titulo' es obligatorio. Las claves que empiezan con '_' se ignoran.",
+  "_ejemplo": {
+    "titulo": "Nombre del curso o evento",
+    "institucion": "Institución que lo emite",
+    "fecha": "2026",
+    "descripcion": "Texto breve opcional",
+    "enlace": "https://enlace-a-la-credencial (opcional)"
+  },
+  "formacionAdicional": {
+    "certificados": [
+      {
+        "titulo": "Programa especializado: Ciberseguridad",
+        "institucion": "Google",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Centro de operaciones de seguridad (SOC)",
+        "institucion": "CISCO-COURSERA",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Programa de Especialización en Ciberseguridad Ofensiva, Defensa Activa y DevSecOps",
+        "institucion": "CIIP LATAM",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Especialización de Ciberseguridad",
+        "institucion": "Netzun",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "CISCO ASA",
+        "institucion": "SAGE IT",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Instala tu propio laboratorio para hacking",
+        "institucion": "HackerMentor",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Hacking aplicación web",
+        "institucion": "HackerMentor",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Linux para Pentesters",
+        "institucion": "HackerMentor",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Hacking Ético Nivel Básico",
+        "institucion": "HackerMentor",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Hacking Wi-Fi de Cero a Experto",
+        "institucion": "HackerMentor",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Dispositivos de Hacking Ético",
+        "institucion": "HackerMentor",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Auditoría y Pentesting de Dispositivos Móviles",
+        "institucion": "HackerMentor",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Fundamentos de Programación para Pentesters",
+        "institucion": "HackerMentor",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Fundamentos de Redes para Pentesters",
+        "institucion": "HackerMentor",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Hacking Ético: OF&DF",
+        "institucion": "ExorciseThat Cybersecurity Global Firm",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Iniciando en el Mundo de la Ciberseguridad",
+        "institucion": "HackerMentor",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Elements of AI",
+        "institucion": "MinnaLearn",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Gestión de la Ciberseguridad",
+        "institucion": "Seguridad Cero",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "SOC 101 - Centro de Operaciones de Seguridad",
+        "institucion": "Academia de Ciberseguridad",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Investigación de Fuentes Abiertas",
+        "institucion": "Colegio de Inteligencia Seguridad y Ciencias Forenses",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Academia de Ciberseguridad - Sistemas Operativos",
+        "institucion": "Academia de Ciberseguridad",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Cyber Security",
+        "institucion": "Programming HUB",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Ethical Hacking",
+        "institucion": "Programming HUB",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Introduction to Critical Infrastructure Protection (ICIP)",
+        "institucion": "OPSWAT",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Técnico en Ciberseguridad",
+        "institucion": "Academia de Ciberseguridad",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Activos, amenazas y vulnerabilidades",
+        "institucion": "GOOGLE-COURSERA",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Ponlo en práctica: Prepárate para los trabajos en ciberseguridad",
+        "institucion": "GOOGLE-COURSERA",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Automatiza las tareas de ciberseguridad con Python",
+        "institucion": "GOOGLE-COURSERA",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Haz sonar la alarma: Detección y respuesta",
+        "institucion": "GOOGLE-COURSERA",
+        "fecha": "",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "CCNA CyberOps 200-201",
+        "institucion": "SAGE IT",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Kali Linux 101 Online",
+        "institucion": "Academia de Ciberseguridad",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Herramientas del oficio: Linux y SQL",
+        "institucion": "GOOGLE-COURSERA",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Conexión y protección: Redes y seguridad de redes",
+        "institucion": "GOOGLE-COURSERA",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Ve a lo seguro: Gestiona los riesgos de seguridad",
+        "institucion": "GOOGLE-COURSERA",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Fundamentos de la ciberseguridad",
+        "institucion": "GOOGLE-COURSERA",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Aspectos básicos de la asistencia técnica",
+        "institucion": "GOOGLE-COURSERA",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "FCF - Introduction to the Threat Landscape 2.0 Self-Paced",
+        "institucion": "FORTINET Training Institute",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "FCF - Getting Started in Cybersecurity 2.0 Self-Paced",
+        "institucion": "FORTINET Training Institute",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Aspectos básicos de la asistencia técnica",
+        "institucion": "GOOGLE-COURSERA",
+        "fecha": "2023",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Seguridad informática",
+        "institucion": "Académica",
+        "fecha": "2023",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Ciberseguridad en el trabajo",
+        "institucion": "Red por la Seguridad, Microsoft",
+        "fecha": "2023",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "La ciberseguridad como estrategia del Gobierno Corporativo",
+        "institucion": "Atlas Governance",
+        "fecha": "2023",
+        "descripcion": "",
+        "enlace": ""
+      }
+    ],
+    "webinars": [],
+    "conferencias": [],
+    "certificaciones": [
+      {
+        "titulo": "Ethical Hacking Certified Associate",
+        "institucion": "CertJoin",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Cybersecurity Awareness Certified Associate",
+        "institucion": "CertJoin",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Cybersecurity Career Starter Certification (CCSC)",
+        "institucion": "Hack & Fix",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Cybersecurity Awareness",
+        "institucion": "CertiProf",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "PMJ Certified",
+        "institucion": "HackerMentor",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Cisco Cybersecurity Operations Fundamentals (CYBEROPS)",
+        "institucion": "Cisco Networking Academy",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "ITIL 4 Fundamentos",
+        "institucion": "NETEC",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "NSE 1 – Information Security Awareness",
+        "institucion": "FORTINET Training Institute",
+        "fecha": "2023",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "NSE 2 – The Evolution of Cybersecurity",
+        "institucion": "FORTINET Training Institute",
+        "fecha": "2023",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "NSE 3 – Fortinet Product Awareness",
+        "institucion": "FORTINET Training Institute",
+        "fecha": "2023",
+        "descripcion": "",
+        "enlace": ""
+      }
+    ],
+    "diplomados": [
+      {
+        "titulo": "Diplomado Técnico en Sistemas Informáticos (421 hrs)",
+        "institucion": "Capacítate para el empleo, Fundación Carlos Slim",
+        "fecha": "2020",
+        "descripcion": "",
+        "enlace": ""
+      }
+    ]
+  }
+}
