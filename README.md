@@ -38,6 +38,8 @@ Abre `http://localhost:8080` en tu navegador. (En VS Code también sirve la exte
 
 > Mientras la clave sea `TU_ACCESS_KEY_AQUI`, el formulario muestra un aviso y un botón **"Abrir mi correo"** (mailto) con el asunto y el mensaje ya rellenados. La access key de Web3Forms puede ser pública: solo permite enviar correos a tu dirección.
 
+> **Importante — destinatario:** en Web3Forms el correo de destino es el que usaste para generar la access key (no se puede cambiar desde el código). Para que los mensajes te lleguen a `contactactame@proton.me`, genera la clave con ESE correo. Recomendado además: en el panel de Web3Forms, en la sección de tu access key, configura **Allowed domains** = `routeroots.github.io` para que solo tu sitio pueda enviar con esa clave.
+
 Incluye: validación (campos obligatorios, formato de correo), honeypot antispam (`botcheck`), aviso de privacidad y estados de *Enviando…*, éxito y error.
 
 ### Alternativa A — Formspree
