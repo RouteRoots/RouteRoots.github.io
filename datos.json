@@ -1,5 +1,5 @@
 {
-  "_instrucciones": "Para agregar un elemento, copia un objeto {titulo, institucion, fecha, descripcion, enlace} y pégalo dentro del arreglo de su categoría (certificados, constancias, webinars, conferencias, certificaciones o diplomados). Solo 'titulo' es obligatorio. Las claves que empiezan con '_' se ignoran.",
+  "_instrucciones": "Para agregar un elemento, copia un objeto {titulo, institucion, fecha, descripcion, enlace} y pégalo dentro del arreglo de su categoría (certificados, webinars, conferencias, certificaciones o diplomados). Solo 'titulo' es obligatorio. Las claves que empiezan con '_' se ignoran.",
   "_ejemplo": {
     "titulo": "Nombre del curso o evento",
     "institucion": "Institución que lo emite",
@@ -302,6 +302,13 @@
         "fecha": "2023",
         "descripcion": "",
         "enlace": ""
+      },
+      {
+        "titulo": "Constancia Finanzas para emprendedores",
+        "institucion": "México X – UNAM",
+        "fecha": "Julio 2016",
+        "descripcion": "",
+        "enlace": ""
       }
     ],
     "webinars": [
@@ -504,15 +511,6 @@
         "titulo": "Diplomado en CLOUD COMPUTING",
         "institucion": "Instituto Educativo de Informática y Computación",
         "fecha": "Agosto 2026",
-        "descripcion": "",
-        "enlace": ""
-      }
-    ],
-    "constancias": [
-      {
-        "titulo": "Constancia Finanzas para emprendedores",
-        "institucion": "México X – UNAM",
-        "fecha": "Julio 2016",
         "descripcion": "",
         "enlace": ""
       }
