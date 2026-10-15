@@ -187,7 +187,7 @@ h1, h2, h3 { line-height: 1.2; margin: 0 0 .5rem; }
 .card-form h4 { margin: 0; font-size: 1rem; line-height: 1.35; }
 .card-form .inst { color: var(--texto-suave); font-size: .9rem; margin: 0; }
 .card-form .desc { color: var(--texto-suave); font-size: .88rem; margin: 0; }
-.card-form .pie-card { margin-top: auto; padding-top: .6rem; display: flex; justify-content: space-between; align-items: center; font-family: var(--fuente-mono); font-size: .8rem; color: var(--texto-suave); }
+.pie-card { margin-top: auto; padding-top: .6rem; display: flex; justify-content: space-between; align-items: center; font-family: var(--fuente-mono); font-size: .8rem; color: var(--texto-suave); }
 .vacio, .error-carga, .cargando {
   padding: 2rem; text-align: center; border: 2px dashed var(--borde); border-radius: var(--radio); color: var(--texto-suave);
 }
