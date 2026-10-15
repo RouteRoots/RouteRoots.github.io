@@ -90,7 +90,6 @@ Cada elemento es un objeto; solo `titulo` es obligatorio. Pégalo dentro del arr
 | Categoría en el sitio | Arreglo en `datos.json` |
 |---|---|
 | Certificados | `certificados` |
-| Constancias / Cursos | `constancias` |
 | Webinars | `webinars` |
 | Conferencias | `conferencias` |
 | Certificaciones Oficiales | `certificaciones` |
