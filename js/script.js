@@ -95,7 +95,6 @@ function iniciarRevelar() {
    ========================================================== */
 const CATEGORIAS = {
   certificados: "Certificados",
-  constancias: "Constancias / Cursos",
   webinars: "Webinars",
   conferencias: "Conferencias",
   certificaciones: "Certificaciones Oficiales",
@@ -181,7 +180,7 @@ function grupoHTML(cat) {
 function renderFormacion(filtro) {
   const cont = document.getElementById("formacionContenido");
   // En "Todas" se muestran primero las certificaciones oficiales
-  const orden = filtro === "todas" ? ["certificaciones", "diplomados", "certificados", "constancias", "webinars", "conferencias"] : [filtro];
+  const orden = filtro === "todas" ? ["certificaciones", "diplomados", "certificados", "webinars", "conferencias"] : [filtro];
   cont.innerHTML = orden.map(grupoHTML).join("");
 }
 
