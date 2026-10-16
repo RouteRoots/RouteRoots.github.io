@@ -3,7 +3,7 @@
    1) Obtén tu access key gratis en https://web3forms.com con tu correo.
    2) Pégala aquí reemplazando "TU_ACCESS_KEY_AQUI".
    ========================================================== */
-const WEB3FORMS_ACCESS_KEY = "TU_ACCESS_KEY_AQUI";
+const WEB3FORMS_ACCESS_KEY = "2a2a2038-4c49-4873-a467-e4c4f63df00e";
 const EMAIL_CONTACTO = "contactactame@proton.me"; // usado en el plan B (mailto)
 const RUTA_DATOS = "datos.json";
 
@@ -94,7 +94,9 @@ function iniciarRevelar() {
    Para agregar elementos edita SOLO datos.json.
    ========================================================== */
 const CATEGORIAS = {
-  certificados: "Certificados",
+  certificados: "Cursos/Certificados",
+  especializaciones: "Especializaciones",
+  constancias: "Constancias de Participación",
   webinars: "Webinars",
   conferencias: "Conferencias",
   certificaciones: "Certificaciones Oficiales",
@@ -180,7 +182,7 @@ function grupoHTML(cat) {
 function renderFormacion(filtro) {
   const cont = document.getElementById("formacionContenido");
   // En "Todas" se muestran primero las certificaciones oficiales
-  const orden = filtro === "todas" ? ["certificaciones", "diplomados", "certificados", "webinars", "conferencias"] : [filtro];
+  const orden = filtro === "todas" ? ["certificaciones", "diplomados", "especializaciones", "constancias", "certificados", "webinars", "conferencias"] : [filtro];
   cont.innerHTML = orden.map(grupoHTML).join("");
 }
 
