@@ -1,5 +1,5 @@
 {
-  "_instrucciones": "Para agregar un elemento, copia un objeto {titulo, institucion, fecha, descripcion, enlace} y pégalo dentro del arreglo de su categoría (certificados, webinars, conferencias, certificaciones o diplomados). Solo 'titulo' es obligatorio. Las claves que empiezan con '_' se ignoran.",
+  "_instrucciones": "Para agregar un elemento, copia un objeto {titulo, institucion, fecha, descripcion, enlace} y pégalo dentro del arreglo de su categoría (certificados, especializaciones, constancias, webinars, conferencias, certificaciones o diplomados). Solo 'titulo' es obligatorio.",
   "_ejemplo": {
     "titulo": "Nombre del curso o evento",
     "institucion": "Institución que lo emite",
@@ -20,20 +20,6 @@
         "titulo": "Centro de operaciones de seguridad (SOC)",
         "institucion": "CISCO-COURSERA",
         "fecha": "2025",
-        "descripcion": "",
-        "enlace": ""
-      },
-      {
-        "titulo": "Programa de Especialización en Ciberseguridad Ofensiva, Defensa Activa y DevSecOps",
-        "institucion": "CIIP LATAM",
-        "fecha": "2025",
-        "descripcion": "",
-        "enlace": ""
-      },
-      {
-        "titulo": "Especialización de Ciberseguridad",
-        "institucion": "Netzun",
-        "fecha": "2024",
         "descripcion": "",
         "enlace": ""
       },
@@ -122,13 +108,6 @@
         "enlace": ""
       },
       {
-        "titulo": "Elements of AI",
-        "institucion": "MinnaLearn",
-        "fecha": "2025",
-        "descripcion": "",
-        "enlace": ""
-      },
-      {
         "titulo": "Gestión de la Ciberseguridad",
         "institucion": "Seguridad Cero",
         "fecha": "2025",
@@ -166,13 +145,6 @@
       {
         "titulo": "Ethical Hacking",
         "institucion": "Programming HUB",
-        "fecha": "2025",
-        "descripcion": "",
-        "enlace": ""
-      },
-      {
-        "titulo": "Introduction to Critical Infrastructure Protection (ICIP)",
-        "institucion": "OPSWAT",
         "fecha": "2025",
         "descripcion": "",
         "enlace": ""
@@ -262,20 +234,6 @@
         "enlace": ""
       },
       {
-        "titulo": "FCF - Introduction to the Threat Landscape 2.0 Self-Paced",
-        "institucion": "FORTINET Training Institute",
-        "fecha": "2024",
-        "descripcion": "",
-        "enlace": ""
-      },
-      {
-        "titulo": "FCF - Getting Started in Cybersecurity 2.0 Self-Paced",
-        "institucion": "FORTINET Training Institute",
-        "fecha": "2024",
-        "descripcion": "",
-        "enlace": ""
-      },
-      {
         "titulo": "Aspectos básicos de la asistencia técnica",
         "institucion": "GOOGLE-COURSERA",
         "fecha": "2023",
@@ -304,9 +262,9 @@
         "enlace": ""
       },
       {
-        "titulo": "Constancia Finanzas para emprendedores",
-        "institucion": "México X – UNAM",
-        "fecha": "Julio 2016",
+        "titulo": "Certificado Cybersecurity 101 Technical",
+        "institucion": "CSASC",
+        "fecha": "Octubre 2026",
         "descripcion": "",
         "enlace": ""
       }
@@ -490,6 +448,34 @@
         "fecha": "Septiembre 2026",
         "descripcion": "",
         "enlace": ""
+      },
+      {
+        "titulo": "Elements of AI",
+        "institucion": "MinnaLearn",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "FCF - Introduction to the Threat Landscape 2.0 Self-Paced",
+        "institucion": "FORTINET Training Institute",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "FCF - Getting Started in Cybersecurity 2.0 Self-Paced",
+        "institucion": "FORTINET Training Institute",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Certificado Cybersecurity 101 Technical",
+        "institucion": "CSASC",
+        "fecha": "Octubre 2026",
+        "descripcion": "",
+        "enlace": ""
       }
     ],
     "diplomados": [
@@ -511,6 +497,31 @@
         "titulo": "Diplomado en CLOUD COMPUTING",
         "institucion": "Instituto Educativo de Informática y Computación",
         "fecha": "Agosto 2026",
+        "descripcion": "",
+        "enlace": ""
+      }
+    ],
+    "especializaciones": [
+      {
+        "titulo": "Programa de Especialización en Ciberseguridad Ofensiva, Defensa Activa y DevSecOps",
+        "institucion": "CIIP LATAM",
+        "fecha": "2025",
+        "descripcion": "",
+        "enlace": ""
+      },
+      {
+        "titulo": "Especialización de Ciberseguridad",
+        "institucion": "Netzun",
+        "fecha": "2024",
+        "descripcion": "",
+        "enlace": ""
+      }
+    ],
+    "constancias": [
+      {
+        "titulo": "Constancia Finanzas para emprendedores",
+        "institucion": "México X – UNAM",
+        "fecha": "Julio 2016",
         "descripcion": "",
         "enlace": ""
       }
